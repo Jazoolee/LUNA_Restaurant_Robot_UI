@@ -121,15 +121,15 @@ The enclosure for this project is designed to resemble the head of our restauran
    - **Importance**: These bars provide stability and secure attachment to the main body of the robot, ensuring the head remains firmly in place during operation.
 
 <p align="center">
-  <img alt="Front View" src="Documents & Images\enclosure_frontview.png" width="90%">
+  <img alt="Front View" src="Documents & Images\enclosure_frontview.png" width="80%">
 </p>
 
 <p align="center">
-  <img alt="Side View" src="Documents & Images\enclosure_sideview.png" width="90%">
+  <img alt="Side View" src="Documents & Images\enclosure_sideview.png" width="80%">
 </p>
 
 <p align="center">
-  <img alt="Inside View" src="Documents & Images\enclosure_insideview.png" width="90%">
+  <img alt="Inside View" src="Documents & Images\enclosure_insideview.png" width="80%">
 </p>
 
 ## Contributers
