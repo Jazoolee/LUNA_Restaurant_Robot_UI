@@ -94,7 +94,44 @@ space minimization. Ample amount of vias and pads are placed for testing points,
 
 ## Enclosure
 
-  
+The enclosure for this project is designed to resemble the head of our restaurant robot, ensuring an engaging and functional appearance. Below are the detailed points about the enclosure design and the importance of component placement:
+
+1. **Front Placement of Raspberry Pi Screen**:
+   - **Explanation**: The Raspberry Pi touch screen is positioned at the front of the enclosure.
+   - **Importance**: This placement provides an optimal view for customers, making it easy to interact with the menu and see visual feedback from the robot.
+
+2. **Kinect Camera Under the Screen**:
+   - **Explanation**: A Kinect camera is mounted below the Raspberry Pi screen.
+   - **Importance**: The Kinect camera captures the surroundings, allowing the robot to detect and respond to customer presence and movements. Its placement ensures a clear field of view.
+
+3. **Internal PCB and Raspberry Pi Housing**:
+   - **Explanation**: Inside the enclosure, there is space allocated for the PCB and the Raspberry Pi.
+   - **Importance**: Housing these components internally protects them from damage and reduces clutter, maintaining a clean and professional appearance.
+
+4. **Space for Two Speakers**:
+   - **Explanation**: The enclosure design includes dedicated spaces for two speakers.
+   - **Importance**: Proper placement of the speakers ensures that the audio output is clear and evenly distributed, enhancing the customer’s auditory experience.
+
+5. **INMP441 Microphone IC Placement**:
+   - **Explanation**: A specific location within the enclosure is designed for the INMP441 microphone IC, ensuring it is not covered.
+   - **Importance**: This placement is crucial for efficiently capturing voice commands without obstructions, ensuring clear and accurate voice input from customers.
+
+6. **Three Connecting Bars**:
+   - **Explanation**: The enclosure is designed to be connected to the rest of the robot via three bars.
+   - **Importance**: These bars provide stability and secure attachment to the main body of the robot, ensuring the head remains firmly in place during operation.
+
+<p align="center">
+  <img alt="Front View" src="Documents & Images\enclosure_frontview.png" width="90%">
+</p>
+
+<p align="center">
+  <img alt="Side View" src="Documents & Images\enclosure_sideview.png" width="90%">
+</p>
+
+<p align="center">
+  <img alt="Inside View" src="Documents & Images\enclosure_insideview.png" width="90%">
+</p>
+
 ## Contributers
 
 * Jazoolee Ahamed - [LinkedIn](https://www.linkedin.com/in/jazoolee-ahamed/)
