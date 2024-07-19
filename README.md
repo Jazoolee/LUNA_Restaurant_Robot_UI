@@ -116,20 +116,23 @@ The enclosure for this project is designed to resemble the head of our restauran
    - **Explanation**: A specific location within the enclosure is designed for the INMP441 microphone IC, ensuring it is not covered.
    - **Importance**: This placement is crucial for efficiently capturing voice commands without obstructions, ensuring clear and accurate voice input from customers.
 
-6. **Three Connecting Bars**:
-   - **Explanation**: The enclosure is designed to be connected to the rest of the robot via three bars.
-   - **Importance**: These bars provide stability and secure attachment to the main body of the robot, ensuring the head remains firmly in place during operation.
 
 <p align="center">
-  <img alt="Front View" src="Documents & Images\enclosure_frontview.png" width="80%">
+  <img alt="Front View" src="Documents & Images\Assembly_front.png" width="80%">
 </p>
 
 <p align="center">
-  <img alt="Side View" src="Documents & Images\enclosure_sideview.png" width="80%">
+  <img alt="Side View" src="Documents & Images\Assembly_inside1.png" width="80%">
+</p>
+
+### Mold Design
+
+<p align="center">
+  <img alt="Inside View" src="Documents & Images\Bottom_mold.png" width="80%">
 </p>
 
 <p align="center">
-  <img alt="Inside View" src="Documents & Images\enclosure_insideview.png" width="80%">
+  <img alt="Inside View" src="Documents & Images\Top_mold.png" width="80%">
 </p>
 
 ## Contributers
