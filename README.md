@@ -30,7 +30,7 @@ This project was undertaken as part of the EN2160 Electronic Design Realization 
 
 
 <p align="center">
-  <img alt="architecture" src="Documents & Images\block_diagram.png" width="45%">
+  <img alt="architecture" src="Images\block_diagram.png" width="45%">
 </p>
 
 
@@ -55,26 +55,26 @@ the MCU, Microphone and the Amplifier so that we can have a highly integrated sy
 have also placed DIP switches in order to have different configurations of connections in the same board.Two Class D amplifier modules have been connected with the MCU in order to achieve stereo sound output. Two LEDs have been added for debugging purposes.
 
 <p align="center">
-  <img alt="Main Schematic" src="Documents & Images\Main.png" width="90%">
+  <img alt="Main Schematic" src="Images\Schematic & PCB Layout\Main.png" width="90%">
 </p>
 
 <p align="center">
-  <img alt="MCU Schematic" src="Documents & Images\MCUSchm.png" width="90%">
+  <img alt="MCU Schematic" src="Images\Schematic & PCB Layout\MCUSchm.png" width="90%">
 </p>
 
 * Components were sourced from reputed manufacturers and the pcb was printed abroad.
 
 <p align="center">
-  <img alt="Amplifier Schematic" src="Documents & Images\AmplifierSchm.png" width="45%">
+  <img alt="Amplifier Schematic" src="Images\Schematic & PCB Layout\AmplifierSchm.png" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Mic Schematic" src="Documents & Images\MicSchm.png" width="45%">
+  <img alt="Mic Schematic" src="Images\Schematic & PCB Layout\MicSchm.png" width="45%">
 </p>
 
 This is a four layer design. There is a top and a bottom signal layer. In between these there
 is a ground and a power plane. The physical dimensions are 100mm*60mm*1.6mm. Five 3mm diameter holes have been placed to help with mounting the PCB inside the enclosure. The power plane has been split into two section with a 25mil gap between them. They are connected to 5v and 3.3v. Components have been grouped together in such a way that they are directly above their required power planes. The use of copper polygons have been minimized and used only for creating low resistance path between power lines. The MCU is placed in the middle and all the other components have been spread around it strategically. Female headers for the Raspberry pi is placed on the left edge of the board so that it can fit with our board without bringing any interference. Extra pad holes have been placed on either side of headers for easy debugging and access to MCU pins.
 
 <p align="center">
-  <img alt="Main PCB" src="Documents & Images\PCB_top.png" width="90%">
+  <img alt="Main PCB" src="Images\Schematic & PCB Layout\PCB_top.png" width="90%">
 </p>
 
 The amplifier modules are placed on the right edge of the board to facilitate easy connections
@@ -86,9 +86,9 @@ size SMD components are mostly used across this pcb to facilitate easy hand sold
 space minimization. Ample amount of vias and pads are placed for testing points, heat transfer and better low impedance connectivity.
 
 <p align="center">
-  <img alt="3d top" src="Documents & Images\3d_top.png" width="45%">
+  <img alt="3d top" src="Images\Schematic & PCB Layout\3d_top.png" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="3d bottom" src="Documents & Images\3d_bottom.png" width="45%">
+  <img alt="3d bottom" src="Images\Schematic & PCB Layout\3d_bottom.png" width="45%">
 </p>
 
 
@@ -118,21 +118,21 @@ The enclosure for this project is designed to resemble the head of our restauran
 
 
 <p align="center">
-  <img alt="Front View" src="Documents & Images\Assembly_front.png" width="80%">
+  <img alt="Front View" src="Images\Enclosure Design\Assembly_front.png" width="80%">
 </p>
 
 <p align="center">
-  <img alt="Side View" src="Documents & Images\Assembly_inside1.png" width="80%">
+  <img alt="Side View" src="Images\Enclosure Design\Assembly_inside1.png" width="80%">
 </p>
 
 ### Mold Design
 
 <p align="center">
-  <img alt="Inside View" src="Documents & Images\Bottom_mold.png" width="80%">
+  <img alt="Inside View" src="Images\Enclosure Design\Bottom_mold.png" width="80%">
 </p>
 
 <p align="center">
-  <img alt="Inside View" src="Documents & Images\Top_mold.png" width="80%">
+  <img alt="Inside View" src="Images\Enclosure Design\Top_mold.png" width="80%">
 </p>
 
 ## Contributers
