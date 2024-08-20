@@ -141,7 +141,7 @@ The enclosure for this project is designed to resemble the head of our restauran
   <img alt="Inside View" src="Images\Final_Product\product.jpg" width="80%">
 </p>
 
-[![Alt Text](https://img.youtube.com/vi/VIDEO_ID/0.jpg)]([https://www.youtube.com/watch?v=VIDEO_ID](https://drive.google.com/file/d/1cwyb35AlUI1OHbBHhO-qeF_yUxVAFeET/view?usp=sharing))
+[![Alt Text](https://img.youtube.com/vi/VIDEO_ID/0.jpg)]((https://drive.google.com/file/d/1cwyb35AlUI1OHbBHhO-qeF_yUxVAFeET/view?usp=sharing))
 
 
 
