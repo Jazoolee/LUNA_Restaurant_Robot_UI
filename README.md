@@ -141,9 +141,7 @@ The enclosure for this project is designed to resemble the head of our restauran
   <img alt="Inside View" src="Images\Final Product\product.jpg" width="80%">
 </p>
 
-<video width="320" height="240" controls>
-  <source src="Images/Final Product/video.mp4" type="video/mp4">
-</video>
+[Watch the video](Images/Final_Product/working_video.mp4)
 
 
 
