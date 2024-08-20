@@ -32,9 +32,9 @@ class FoodSubFrame:
                 
                 newFrame = ct.CTkToplevel(self.root)
                 newFrame.title("Order Details")
-                newFrame.geometry("500x300")
+                newFrame.geometry("500x300+262+150")
                 # newFrame.resizable(False,False)
-                newFrame.grab_set()
+                #newFrame.grab_set()
 
                 def increase_quantity():
                     
@@ -59,14 +59,14 @@ class FoodSubFrame:
                         newbutton2.configure(state="normal")
 
                 def cancel():
-                    newFrame.grab_release()
+                    #newFrame.grab_release()
                     newFrame.destroy()
 
                 def confirm():
                     if(self.quantity != 0):
                         self.update_ordered_food_list()
                         print(self.ordered_food_list)
-                        newFrame.grab_release()
+                        #newFrame.grab_release()
                         newFrame.destroy()
                         self.cancelbutton.configure(state="normal")
                         self.orderbutton.configure(state="disable",text="Ordered",fg_color="Green")
@@ -96,7 +96,7 @@ class FoodSubFrame:
                 self.orderbutton.configure(text = "Order",state="normal",fg_color="#1874CD")
                 self.cancelbutton.configure(state="disable")
 
-        subframe = ct.CTkFrame(self.frame,height=50,width=500,border_width=3,border_color="yellow")
+        subframe = ct.CTkFrame(self.frame,height=50,width=500,border_width=3,border_color="turquoise3")
         subframe.pack(pady=10)
         #label
         lb1 = ct.CTkLabel(subframe,text=f"{self.name} - Rs.{self.price}",height=70,width=200,font=("Times",18,"bold","italic"))
@@ -124,9 +124,9 @@ class FoodFrame:
     
     def create_foood_frame(self):
 
-        my_fr = ct.CTkFrame(self.frame,height=200,width=600,border_width=3,border_color="yellow")
+        my_fr = ct.CTkFrame(self.frame,height=200,width=600,border_width=3,border_color="turquoise2")
         my_fr.grid(row=self.row,column=self.column)
-        my_lb = ct.CTkLabel(my_fr,text=f"{self.name}",height=50,width=400,fg_color="blue",font=("Times",20,"bold","italic"))
+        my_lb = ct.CTkLabel(my_fr,text=f"{self.name}",height=50,width=400,fg_color="DeepSkyBlue3",font=("Times",20,"bold","italic"))
         my_lb.pack(pady=10,padx=45)
 
         if(self.name == "Fried Rice" or self.name == "Kottu" or self.name == "Noodles" or self.name == "Biriyani"):
@@ -166,24 +166,30 @@ class MenuPage:
     def __init__(self,iroot,ifood_list):
         self.root = iroot
         self.ordered_food_list = ifood_list
+        
     
     def run(self):
+
+        
+        #self.root.overrideredirect(True)
 
         def goto_nextpage():
 
             for widject in self.root.winfo_children():
                 widject.destroy()
-
+            
+            #self.root.attributes("-fullscreen",True)
             c = CheckoutPage(self.root,self.ordered_food_list)
             c.run()
             
 
         self.root.title("ROBO")
-        self.root.geometry(f"1024x600+290+132")
+        self.root.geometry(f"1024x600+0+0")
+        self.root.attributes("-fullscreen",True)
         myFrame = ct.CTkScrollableFrame(self.root,orientation="vertical",width=1024,height=600,
                                         label_text="MENU",
                                         border_width=3,
-                                        border_color="yellow",
+                                        border_color="turquoise1",
                                         label_font=("Times",25,"bold","italic"))
         myFrame.pack()
 
