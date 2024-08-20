@@ -143,7 +143,7 @@ The enclosure for this project is designed to resemble the head of our restauran
 
 ## Watch the Video
 
-You can watch the video demonstration [here]([https://drive.google.com/file/d/your_video_id/view?usp=sharing](https://drive.google.com/file/d/1cwyb35AlUI1OHbBHhO-qeF_yUxVAFeET/view?usp=sharing)).
+You can watch the video demonstration [here]((https://drive.google.com/file/d/1cwyb35AlUI1OHbBHhO-qeF_yUxVAFeET/view?usp=sharing)).
 
 
 
