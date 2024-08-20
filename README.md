@@ -138,7 +138,7 @@ The enclosure for this project is designed to resemble the head of our restauran
 ## Final Product
 
 <p align="center">
-  <img alt="Inside View" src="Images\Final Product\product.png" width="80%">
+  <img alt="Inside View" src="Images\Final Product\product.jpg" width="80%">
 </p>
 
 ## Contributers
