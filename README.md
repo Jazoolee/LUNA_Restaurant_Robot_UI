@@ -135,6 +135,12 @@ The enclosure for this project is designed to resemble the head of our restauran
   <img alt="Inside View" src="Images\Enclosure Design\Top_mold.png" width="80%">
 </p>
 
+## Final Product
+
+<p align="center">
+  <img alt="Inside View" src="Images\Final Product\product.png" width="80%">
+</p>
+
 ## Contributers
 
 * Jazoolee Ahamed - [LinkedIn](https://www.linkedin.com/in/jazoolee-ahamed/)
