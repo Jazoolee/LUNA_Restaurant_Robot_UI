@@ -141,6 +141,9 @@ The enclosure for this project is designed to resemble the head of our restauran
   <img alt="Inside View" src="Images\Final Product\product.jpg" width="80%">
 </p>
 
+[Watch the video](path/to/your/working_video.mp4)
+
+
 ## Contributers
 
 * Jazoolee Ahamed - [LinkedIn](https://www.linkedin.com/in/jazoolee-ahamed/)
