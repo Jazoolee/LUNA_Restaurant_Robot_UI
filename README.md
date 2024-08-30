@@ -41,8 +41,6 @@ This project was undertaken as part of the EN2160 Electronic Design Realization 
 expressions, to create an engaging and dynamic dining experience
 * Designed to work on 5v and fit into a 10cm x 6cm x 0.16cm enclosure. Easy and Customizable setup with Low power consumption.
 
-## Code
-Still in testing process...
 ## Schematic & PCB
 
 We have opted for a hierarchical schematic design due to the complex nature of the overall
