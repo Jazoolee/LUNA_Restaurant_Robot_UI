@@ -23,8 +23,8 @@ class Food:
         
         newFrame = ct.CTkToplevel(self.root)
         newFrame.title("Order Details")
-        newFrame.geometry("500x300")
-        newFrame.grab_set()
+        newFrame.geometry("500x300+262+150")
+        #newFrame.grab_set()
 
         def increase_quantity():
             nonlocal quantity
@@ -47,7 +47,7 @@ class Food:
                 newbutton2.configure(state="normal")
 
         def cancel():
-            newFrame.grab_release()
+            #newFrame.grab_release()
             newFrame.destroy()
 
         def confirm():
@@ -57,7 +57,7 @@ class Food:
             self.lbl2.configure(text=f"{quantity}")
             self.lbl3.configure(text=f"Rs.{self.ordered_food[2]*self.ordered_food[1]}")
             self.update_total_price()
-            newFrame.grab_release()
+            #newFrame.grab_release()
             newFrame.destroy()
         
         newlabel = ct.CTkLabel(newFrame,text="Enter Quantity",width=500,height=50,font=("Times",20,"bold","italic"))
@@ -83,7 +83,7 @@ class Food:
             self.myframe.destroy()
             self.update_total_price()
 
-        self.myframe = ct.CTkFrame(self.frame,height=200,width=1000,border_width=3,border_color="yellow")
+        self.myframe = ct.CTkFrame(self.frame,height=200,width=1000,border_width=3,border_color="turquoise3")
         self.myframe.grid(row=self.count,column=0,columnspan=4,pady=10)
 
         hiddenlbl = ct.CTkLabel(self.myframe,text="",width=980,height=10)
@@ -112,6 +112,9 @@ class CheckoutPage:
         self.total_price = 0
     
     def run(self):
+        
+        #self.root.attributes("-fullscreen",True)
+        
         ordered_list = []
         def edit():
             for x in ordered_list:
@@ -121,14 +124,32 @@ class CheckoutPage:
         def back_to_menu():
             for widject in self.root.winfo_children():
                 widject.destroy()
+            from menu_class import MenuPage
             m = MenuPage(self.root,self.ordered_food_list)
             m.run()
 
+        # def checkout():
+        #     print(self.ordered_food_list)
+        #     for widject in self.root.winfo_children():
+        #         widject.destroy()
+        #     self.root.destroy()
+
         def checkout():
             print(self.ordered_food_list)
+            # Destroy all widgets and cancel any remaining tasks
+            for widget in self.root.winfo_children():
+                widget.destroy()
+
+            # Use after_cancel to cancel any scheduled tasks if they exist
+            if hasattr(self, 'scheduled_task'):
+                self.root.after_cancel(self.scheduled_task)
+            
+            # Destroy the root window after a slight delay to ensure cleanup
+            self.root.after(100, self.root.destroy)
+
 
         self.root.title("Check Out")
-        self.root.geometry(f"1024x600+290+132")
+        self.root.geometry(f"1024x600+0+0")
 
         main_label = ct.CTkLabel(self.root,width=980,height=40,text="Your Orders",font=("Times",35,"bold","italic"))
         main_label.grid(row=0,column=0,columnspan=4,pady=40)
@@ -142,7 +163,7 @@ class CheckoutPage:
 
         myFrame = ct.CTkScrollableFrame(self.root,orientation="vertical",width=1000,height=300,
                                         border_width=3,
-                                        border_color="yellow",
+                                        border_color="turquoise1",
                                         label_font=("Times",25,"bold","italic"))
         myFrame.grid(row=2,column=0,columnspan=4)
 
