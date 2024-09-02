@@ -1,7 +1,11 @@
 <!-- ABOUT THE PROJECT -->
  LUNA The Waitress Robot User Interface
  =================
+For comprehensive design details, checkout the documentation:
 
+Design Document()
+
+Design Methodology(Documentation/Design_Methodology.pdf)
 <!-- <p align="left">
   <img alt="LUNA UI" src="Documents & Images/LUNA UI.jpg" width="45%">
 </p> -->
@@ -144,7 +148,6 @@ The enclosure for this project is designed to resemble the head of our restauran
 ## Watch the Video
 
 You can watch the video demonstration [here](https://drive.google.com/file/d/1cwyb35AlUI1OHbBHhO-qeF_yUxVAFeET/view?usp=sharing).
-
 
 
 ## Contributers
