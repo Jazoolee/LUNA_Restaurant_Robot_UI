@@ -13,7 +13,9 @@ Table of contents
    * [Introduction](#Introduction)
    * [Schematic & PCB](#Schematic-&-PCB)
    * [Enclosure](#Enclosure)
-   * [Code](#Code)
+   * [Mold Design](#mold-design)
+   * [Final Product](#final-product)
+   * [Video Demonstration](#watch-the-video)
    * [Contributors](#Contributors)
 <!--te-->
 
