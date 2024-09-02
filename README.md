@@ -3,9 +3,9 @@
  =================
 For comprehensive design details, checkout the documentation:
 
-Design Document()
+[Design Document](Documentation/Design_Document.pdf)
 
-Design Methodology(Documentation/Design_Methodology.pdf)
+[Design Methodology](Documentation/Design_Methodology.pdf)
 <!-- <p align="left">
   <img alt="LUNA UI" src="Documents & Images/LUNA UI.jpg" width="45%">
 </p> -->
@@ -14,13 +14,13 @@ Table of contents
 =================
 
 <!--ts-->
-   * [Introduction](#Introduction)
-   * [Schematic & PCB](#Schematic-&-PCB)
-   * [Enclosure](#Enclosure)
+   * [Introduction](#introduction)
+   * [Schematic & PCB](#schematic--pcb)
+   * [Enclosure](#enclosure)
    * [Mold Design](#mold-design)
    * [Final Product](#final-product)
    * [Video Demonstration](#watch-the-video)
-   * [Contributors](#Contributors)
+   * [Contributors](#contributors)
 <!--te-->
 
 ## Introduction 
@@ -150,7 +150,7 @@ The enclosure for this project is designed to resemble the head of our restauran
 You can watch the video demonstration [here](https://drive.google.com/file/d/1cwyb35AlUI1OHbBHhO-qeF_yUxVAFeET/view?usp=sharing).
 
 
-## Contributers
+## Contributors
 
 * Jazoolee Ahamed - [LinkedIn](https://www.linkedin.com/in/jazoolee-ahamed/)
 * Sahan Dissanayaka - [LinkedIn](https://www.linkedin.com/in/sahan-dissanayaka-643839247/)
